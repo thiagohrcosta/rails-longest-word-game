@@ -49,3 +49,19 @@
   font-weight: bold;
   text-decoration: underline;
 }
+
+
+.btn-play a{
+  background-color: #29bb89;
+  padding: 15px 25px;
+  border-radius: 20px;
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+.btn-play a:hover{
+    background-color: #fff;
+    border: 1px solid #29bb89;
+    color: #29bb89;
+}
