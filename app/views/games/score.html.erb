@@ -1,0 +1,15 @@
+<div class="container mt-5 answer-container">
+  <h1>
+    Result
+  </h1>
+
+  <p>
+    <% if @english && !@valid_word %>
+      <p>Sorry but <span class="answer-word"><%= @answer %></span> can't be build out of <%= @possible_letters %></p>
+    <% elsif @english %>
+      <p><span class="congrats">Congratulations!</span> <span class="answer-word"><%= @answer %></span> is a english word.</p>
+    <% else %>
+      <p>Sorry but <span class="answer-word"><%= @answer %></span> does not seem to be a valid English word...</p>
+    <% end %>
+  </p>
+</div>

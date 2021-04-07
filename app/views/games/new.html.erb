@@ -1,0 +1,25 @@
+<div class="container mt-5 game-container">
+  <h1>New Game</h1>
+
+  <div class="letter-container mt-3">
+    <h2>
+      <% @letters.each do |element| %>
+      <span class="letter-background"><%=element%></span>
+      <% end %>
+    </h2>
+  </div>
+
+  <div class="mt-4">
+    <p>What is the longest word you can find?</p>
+  </div>
+
+  <form action="/score" method="POST">
+    <input class="input-field" type="text" name="word"></input>
+    <input class="input-field" type="hidden" name="letters" value="<%= @letters %>"></input>
+<!--     <input id="token" name="token" type="hidden" value="VUBJKB23UIVI1UU1VOBVI@"/> -->
+    <input class="btn-submit" type="submit" value="Play">
+    <%= hidden_field_tag :authenticity_token, form_authenticity_token %>
+  </form>
+</div>
+
+
