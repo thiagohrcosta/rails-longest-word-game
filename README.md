@@ -12,17 +12,6 @@ This project was created with:
 To check if a word typed by the user is an english word, was use Le Wagon API (https://wagon-dictionary.herokuapp.com/)
 
 ## How to run this project
-![enter image description here](https://github.com/thiagohrcosta/rails-longest-word-game/blob/master/public/img/img1.png?raw=true)
-
-## Technologies
-This project was created with:
-
- - Ruby
- - Rails
- - ERB
-
-## API requests
-To check if a word typed by the user is an english word, was used Le Wagon API (https://wagon-dictionary.herokuapp.com/)
 
 This README would normally document whatever steps are necessary to get the
 application up and running.
