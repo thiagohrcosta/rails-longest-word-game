@@ -1,4 +1,6 @@
 # README
+![Banner image](https://github.com/thiagohrcosta/rails-longest-word-game/blob/master/public/img/img1.png?raw=true)
+
 
 This README would normally document whatever steps are necessary to get the
 application up and running.
