@@ -50,12 +50,6 @@ class GamesController < ApplicationController
 
     return true
 
-    # checar por letras, testar letra por letra da palavra
-    # escrita se ela consta no array de letras possíveis,
-    # se não constar dará erro.
-    # se ela constar, a letra precisa ser retirada do array
-    # de letras, para evitar repetição ou impedir uso indevido
-
   end
 
   def english_word?(word)

@@ -8,7 +8,7 @@ This project was created with:
  - ERB
 
 ## API requests
-To check if a word typed by the user is an english word, was use Le Wagon API (https://wagon-dictionary.herokuapp.com/)
+To check if a word typed by the user is an english word, was used Le Wagon API (https://wagon-dictionary.herokuapp.com/)
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
