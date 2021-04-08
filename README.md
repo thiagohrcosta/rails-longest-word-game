@@ -10,7 +10,7 @@ This project was created with:
  - [Bootstrap](https://getbootstrap.com/)
 
 ## API requests
-To check if a word typed by the user is an english word, was use Le Wagon API (https://wagon-dictionary.herokuapp.com/)
+To check if a word typed by the user is an english word, was used Le Wagon API (https://wagon-dictionary.herokuapp.com/)
 
 ## How to run this project
 Download or clone it. Then run in the main folder the command `rails server`, the project should run on `localhost:3000/new`
